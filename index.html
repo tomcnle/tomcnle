@@ -10,38 +10,60 @@ extra_style: |
   main {
     text-align: center;
     padding: 2rem;
+    max-width: 520px;
   }
   h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+    letter-spacing: -0.01em;
   }
   .tagline {
-    font-size: 1.1rem;
-    color: #555;
-    margin-bottom: 1.5rem;
-  }
-  .links {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
+    font-size: 1rem;
+    color: #888;
+    font-style: italic;
+    margin-bottom: 2rem;
   }
   .links a {
-    font-size: 0.95rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #999;
+  }
+  .links a:hover {
+    color: #1a1a1a;
   }
   .posts {
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     text-align: left;
-    max-width: 480px;
   }
   .posts h2 {
-    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 0.7rem;
     font-weight: 600;
-    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #999;
+    margin-bottom: 1rem;
     text-align: center;
   }
+  .posts ul {
+    list-style: none;
+    padding: 0;
+  }
+  .posts li {
+    margin-bottom: 0.5rem;
+  }
   .posts a {
-    font-size: 0.95rem;
+    font-size: 1rem;
+    color: #1a1a1a;
+  }
+  .posts .date {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    color: #bbb;
+    margin-left: 0.5rem;
   }
 ---
 
@@ -55,9 +77,14 @@ extra_style: |
   {% if site.posts.size > 0 %}
   <div class="posts">
     <h2>Writing</h2>
-    {% for post in site.posts %}
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    {% endfor %}
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="date">{{ post.date | date: "%b %Y" }}</span>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
   {% endif %}
 </main>
