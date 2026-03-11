@@ -1,5 +1,5 @@
 ---
-title: "Why I Built a Land and Expand Strategy for Customer Journey Management"
+title: "A Land and Expand Strategy for Customer Journey Management"
 subtitle: "A pragmatic plan-on-a-page for CX teams who are just getting started and don't want to blow it."
 description: "A pragmatic plan-on-a-page for CX teams who are just getting started with customer journey management and don't want to blow it."
 date: 2026-03-11
