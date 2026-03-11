@@ -48,6 +48,8 @@ The framework uses five core activities: Define, Measure, Analyse, Improve, and 
 5. **Govern: Stay lightweight.**
    In the early stages, governance should be as lightweight as possible. A single CX point of contact. Monthly reviews with the cross-functional team. Informing key stakeholders as things emerge, rather than implementing a heavy governance structure from day one. The honest reason for this is that you have to be open to the possibility that journey management might not be the right fit for every organisation. Some organisations have already found a strong set of customer-centric principles embedded in product or service design, and a formal journey management practice won't add much that's distinctive. If you've built up a complex governance structure only to discover that, unwinding it becomes a whole problem in itself. Keep it light until you know it's working.
 
+<img src="{{ '/assets/landandexpand.png' | relative_url }}" alt="Customer Journey Management: Plan on a Page. A framework showing five activities (Define, Measure, Analyse, Improve, Govern) across Land and Expand phases." style="width: 100%; margin: 2rem 0; border: 1px solid #e0e0e0; border-radius: 4px;">
+
 ## When to Expand
 
 Once you've had some runs on the board (real wins, demonstrated value, growing internal credibility) that's your signal to start thinking about expansion. That's when you can go out and make a case for a broader portfolio of journeys. That's when you can justify deeper research methods, more sophisticated KPIs, larger bets.
