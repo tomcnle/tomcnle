@@ -7,6 +7,10 @@ category: Customer Journey Management
 footer_note: "Get in touch — the specifics are always where the interesting problems live."
 ---
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 2rem;">
+  <iframe src="https://www.youtube.com/embed/K5a2zJRrO74" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
+</div>
+
 Most of the customer journey management content out there is frustratingly high-level. You get the big vision — the enterprise atlas, the cross-functional operating model, the org-wide transformation — but very little that actually tells you what to do on Monday morning when you're trying to get a nascent practice off the ground.
 
 That's the gap I wanted to address with this plan on a page.
