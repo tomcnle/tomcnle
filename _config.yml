@@ -1,0 +1,16 @@
+title: Tom Connole
+description: Customer Experience Technologist & Journey Manager
+baseurl: /tomcnle
+url: https://tomcnle.github.io
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
