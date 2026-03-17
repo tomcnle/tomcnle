@@ -2,24 +2,34 @@
 layout: default
 title: Tom Connole
 extra_style: |
+  html, body {
+    background: #f0f0f0;
+  }
+
   .page-layout {
     display: flex;
     min-height: 100vh;
   }
 
   .sidebar {
-    width: 40%;
-    max-width: 480px;
+    width: 30%;
+    max-width: 360px;
     padding: 4rem 3rem;
     flex-shrink: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background: #f0f0f0;
   }
 
   .preview-pane {
     flex: 1;
     background: #f0f0f0;
     padding: 4rem 3rem;
-    border-left: 1px solid #e5e5e5;
     overflow-y: auto;
+    margin-left: 30%;
   }
 
   header {
@@ -74,7 +84,6 @@ extra_style: |
     background: #fff;
     border-radius: 8px;
     padding: 2.5rem;
-    max-width: 640px;
   }
 
   .preview-card .preview-category {
@@ -122,11 +131,14 @@ extra_style: |
       flex-direction: column;
     }
     .sidebar {
+      position: static;
       width: 100%;
       max-width: none;
+      height: auto;
       padding: 3rem 2rem 2rem;
     }
     .preview-pane {
+      margin-left: 0;
       border-left: none;
       border-top: 1px solid #e5e5e5;
       padding: 2rem;
@@ -140,7 +152,8 @@ extra_style: |
       <h1>Tom Connole</h1>
       <p class="tagline">Customer Experience Technologist & Journey Manager</p>
       <div class="links">
-        <a href="https://www.linkedin.com/in/tomconnole/">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/tomconnole/" target="_blank" rel="noopener noreferrer">LinkedIn <span style="font-size: 0.75em;">&#8599;</span></a>
+        <a href="mailto:tom.j.connole@gmail.com">Email <span style="font-size: 0.75em;">&#8599;</span></a>
       </div>
     </header>
 
